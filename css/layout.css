@@ -377,7 +377,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .timeline-header {
 	float: left;
 	width: 35%;
-	padding-right: 90px;
+	padding-right: 40px;
 	text-align: right;
 }
 #resume .timeline-header h3 {
@@ -390,7 +390,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .timeline-content {
 	margin-left: 35%;
-	padding-left: 60px;
+	padding-left: 45px;
 }
 #resume .timeline-content h4 {
 	position: relative;
