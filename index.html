@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="pr-br"> 
 <head>
 
-   <!--- Basic Page Needs
-   ================================================== -->
+   <!--- Basic Page Needs -->
    <meta charset="utf-8">
 	<title>Danilo Veras</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
+   <!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-    ================================================== -->
+	<!-- CSS -->
    <link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <!-- Java Script -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/modernizr.js"></script>
+   <script src="https://kit.fontawesome.com/abeba51348.js" crossorigin="anonymous"></script>
 
-   <!-- Favicons
-	================================================== -->
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+   <!-- Favicons -->
 	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
+   <!-- Header -->
    <header id="home">
 
       <nav id="nav-wrap">
@@ -58,8 +60,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Eu sou Danilo Veras.</h1>
-            <h3>Sou um <span>desenvolvedor backend</span> com conhecimento em <span>PHP</span> 
-            e <span>desenvolvimento web</span> em geral.
+            <h3>Sou um <span>desenvolvedor backend</span> com conhecimento em <span>PHP</span> e <span>desenvolvimento web</span> em geral.
            
             <hr />
             <ul class="social">
@@ -143,18 +144,37 @@
 
 				<div class="bars">
 
-				   <ul class="skills">
-					   <li><span class="bar-expand python"></span><em>PHP</em></li>
-                  <li><span class="bar-expand django"></span><em>Laravel</em></li>
-						<li><span class="bar-expand scrapy"></span><em>Html5</em></li>
-						<li><span class="bar-expand vuejs"></span><em>CSS3</em></li>
-                  <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
-                  <li><span class="bar-expand git"></span><em>Git</em></li>
-                  <li><span class="bar-expand docker"></span><em>GitHub</em></li>
-                  <li><span class="bar-expand devops"></span><em>Mysql</em></li>
-
-
-					</ul>
+				   <ul class="skill-bars">
+                  <li>
+                     <div class="progress percent60"><span>60%</span></div>
+                     <strong>PHP</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent50"><span>50%</span></div>
+                     <strong>Laravel</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent35"><span>35%</span></div>
+                     <strong>HTML5 & CSS3</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent65"><span>65%</span></div>
+                     <strong>Scrum</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent60"><span>60%</span></div>
+                     <strong>Git</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent90"><span>90%</span></div>
+                     <strong>GitHub</strong>
+                  </li>
+                  <li>
+                     <div class="progress percent50"><span>50%</span></div>
+                     <strong>Mysql</strong>
+                  </li>
+         
+               </ul> <!-- /skill-bars -->		
 
 				</div><!-- end skill-bars -->
 
@@ -167,45 +187,56 @@
       <div class="row education">
 
          <div class="three columns header-col">
-            <h1><span>Educação</span></h1>
+            <h1><span>Formação</span></h1>
          </div>
 
          <div class="nine columns main-col">
 
             <div class="row item">
 
-               <div class="twelve columns">
+               <div class="timeline-wrap">
 
-                  <h3>UNOPAR</h3>
-                  <p class="info">Tecnólogo em Analise e Desenvolvimento de Sistemas<span>&bull;</span> <em class="date">Dezembro 2020</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>UNOPAR</h3>
-                  <p class="info">Tecnólogo em Marketing Digital <span>&bull;</span> <em class="date">Julho 2023</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>IFPI</h3>
-                  <p class="info">Auxiliar de Recursos Humanos <span>&bull;</span> <em class="date">2021</em></p>
-
-               </div>
-
-            </div> <!-- item end -->
-
+                  <div class="timeline-block">
+   
+                     <div class="timeline-ico">
+                        <i class="fa fa-graduation-cap"></i>
+                     </div>
+   
+                     <div class="timeline-header">
+                        <h3>Unopar</h3>
+                        <p>2020</p>
+                     </div>
+   
+                     <div class="timeline-content">
+                        <h4>Tecnólogo em Análise e desenvolvimento de Sistemas</h4>
+                        <p><br></p>
+                        
+                     </div>
+   
+                  </div> <!-- /timeline-block -->
+   
+                  <div class="timeline-block">
+   
+                     <div class="timeline-ico">
+                        <i class="fa fa-graduation-cap"></i>
+                     </div>
+   
+                     <div class="timeline-header">
+                        <h3>Unopar</h3>
+                        <p>2020 - 2023</p>
+                     </div>
+   
+                     <div class="timeline-content">
+                        <h4>Tecnólogo em Marketing Digital</h4>
+                        <p><br></p>
+                     </div>
+   
+                  </div> <!-- /timeline-block -->
+   
+                  
+   
+               </div> <!-- /timeline-wrap -->   			
+   
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
@@ -216,28 +247,87 @@
       <div class="row work">
 
          <div class="three columns header-col">
-            <h1><span>Trabalho</span></h1>
+            <h1><span>Experiência</span></h1>
          </div>
 
          <div class="nine columns main-col">
 
             <div class="row item">
 
-               <div class="twelve columns">
+               <div class="col-twelve resume-header">
 
-                  <h3>freelancer</h3>
-                  <p class="info">Desenvolvedor backend / Web Designer <span>&bull;</span> <em class="date"> 2019 - Atualmente</em></p>
-
-                  <p>
-                     Início de minha trajetória profissional no âmbito da
-                     tecnologia. Oferecia suporte para algumas pessoas e
-                     executando pequenos trabalhos como freelancer
-                     aprimorando cada vez mais as habilidades de
-                     programação.
-                  </p>
-
-               </div>
-
+                
+      
+               </div> <!-- /resume-header -->
+      
+               <div class="col-twelve">
+      
+                  <div class="timeline-wrap">
+      
+                     <div class="timeline-block">
+      
+                        <div class="timeline-ico">
+                           <i class="fa fa-briefcase"></i>
+                        </div>
+      
+                        <div class="timeline-header">
+                           <h3>Analista de Marketing Digital</h3>
+                           <p>2021</p>
+                        </div>
+      
+                        <div class="timeline-content">
+                           <h4>São Luis - MA</h4>
+                           <p>Planejamento e Gestão de conteúdo, gerenciamento e
+                              realização de postagens, gerenciamento nas redes
+                              sociais Facebook, Instagram e Whatsapp, SAC 3.0.</p>
+                        </div>
+      
+                     </div> <!-- /timeline-block -->
+      
+                     <div class="timeline-block">
+      
+                        <div class="timeline-ico">
+                           <i class="fa fa-briefcase"></i>
+                        </div>
+      
+                        <div class="timeline-header">
+                           <h3>Analista de Marketing Digital</h3>
+                           <p>2020</p>
+                        </div>
+      
+                        <div class="timeline-content">
+                           <h4>Eqip Copiadoras</h4>
+                           <p>Planejamento e Gestão de conteúdo, criação de artes e
+                              revisão, gerenciamento e realização de postagens,
+                              gerenciamento nas redes sociais Facebook, Instagram
+                              e Whatsapp, SAC 3.0.</p>
+                        </div>
+      
+                     </div> <!-- /timeline-block -->
+      
+                     <div class="timeline-block">
+      
+                        <div class="timeline-ico">
+                           <i class="fa fa-briefcase"></i>
+                        </div>
+      
+                        <div class="timeline-header">
+                           <h3>Back-end Developer</h3>
+                           <p>2019 - Present</p>
+                        </div>
+      
+                        <div class="timeline-content">
+                           <h4>Freelancer</h4>
+                           <p>Início de minha trajetória profissional no âmbito da tecnologia. Oferecia suporte para algumas pessoas e executando pequenos trabalhos como freelancer aprimorando cada vez mais as habilidades de programação.</p>
+                        </div>
+      
+                     </div> <!-- /timeline-block -->
+      
+                  </div> <!-- /timeline-wrap -->   			
+      
+               </div> <!-- /col-twelve -->
+               
+            </div> <!-- /resume-timeline -->
             </div> <!-- item end -->
 
          </div> <!-- main-col end -->
@@ -264,7 +354,7 @@
 
             <ul class="copyright">
                <li>&copy; Copyright 2021 </li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+               <li>Design by <a href="https://www.linkedin.com/in/verasdanilo/" title="VerasDan" target="_blank">VerasDan</a></li>   
             </ul>
 
          </div>
@@ -275,18 +365,6 @@
 
    </footer> <!-- Footer End-->
 
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
 
 </body>
 
