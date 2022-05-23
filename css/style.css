@@ -1,10 +1,28 @@
-
-
-
-
-
 #fundo {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
+
+a {
+	color: #2c98f0;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+a:hover,a:active,a:focus {
+	color: #2c98f0;
+	outline: none;
+	text-decoration: none !important;
+}
+
+p {
+	margin-bottom: 1.5em;
+	font-family: "Montserrat", sans-serif;
+}
+x {
+	margin-bottom: 1.5em;
+	background-color: darkkhaki;
+	backface-visibility: visible;
+}
+
