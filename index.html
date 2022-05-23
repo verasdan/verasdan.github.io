@@ -15,6 +15,7 @@
 
       <!-- Theme style  -->
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/layout.css">
 
     </head>
 
@@ -24,25 +25,24 @@
                <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"
                    data-toggle="collapse" data-target="#navbar"
                    aria-expanded="false" aria-controls="navbar"><i></i></a>
-
-               <!--------------------[START] Side Bar-------------------------->
-               <aside id="fundo-aside" role="complementary"
+                   
+<!--------------------[START] Side Bar-------------------------->
+               <aside id="style-aside" role="complementary"
                    class="border js-fullheight no-print">
                   <div class="text-center">
                      <div class="author-img">
                         <img src="images/logo.png">
                      </div>
-                     <h1 id="colorlib-logo"><a href="./index.html">Dan Veras</a>
+                     <h1 id="style-logo"><a href="./index.html">Dan Veras</a>
                      </h1>
                   </div>
-                  <nav id="fundo-menu" role="navigation" class="navbar"
+                  <nav id="style-menu" role="navigation" class="navbar"
                       style="padding-top: 2em">
                      <div id="navbar" class="collapse">
                         <ul>
                            <li><a href="#" data-nav-section="about">About</a></li>
                            <li><a href="#" data-nav-section="skills">Skills</a></li>
                            <li><a href="#" data-nav-section="projects">Projects</a></li>
-                           <!-- <li><a href="#" data-nav-section="blogs">Blogs</a></li> -->
                            <li><a href="#" data-nav-section="experience">Work Experience</a></li>
                            <li><a href="#" data-nav-section="education">Education</a></li>
                            <li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -50,9 +50,59 @@
                      </div>
                   </nav>
                </aside>
-               <!--------------------[END] Side Bar---------------------------->
+<!--------------------[END] Side Bar---------------------------->
+
+<!--------------------[START] Main Page------------------------->
+               <div id= style-main>
+                    <!-----[START] About me------------->
+                    <section class="about" data-section="about"></section>
+                    <div class="narrow-content">
+                        <div class="row animate-box"
+                            data-animate-effect="fadeInLeft">
+                           <div class="about-desc">
+                              <h1>About</h1>
+                              <p>Hi &#128075; <br>I'm Dan Veras. I’m currently
+                                 working as a
+                                 <b>Freelancer</b> specialized in
+                                 <b>JavaScript Applications</b>. I did my undergrad
+                                 in CS from <b>NIT Warangal</b>.
+                              </p>
+                              <p>I'm a <b>developer</b>, geek and curious human
+                                 besides being an OpenSource enthusiast. I have
+                                 experience of delivering solutions for interesting
+                                 problems from startup and industry space.</p>
+                              <p class="finalText">I love to cook and travel.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+<!--------------------[END] About me---------------------------->
+
+<!--------------------[START] Skills---------------------------->
+               <section class="skills" data-section="skills">
+                <div class="narrow-content">
+                   <div class="row row-bottom-padded-sm animate-box"
+                       data-animate-effect="fadeInLeft">
+                      <div class="about-desc">
+                         <h1>Skills</h1>
+                      </div>
+                   </div>
+                   <div id="skills" class="row">
+                   </div>
+                </div>
+             </section>
+<!--------------------[END] Skills------------------------------>
+         
+             
 
 
 
+
+
+
+
+
+            
+        </div>
 
     </body>
